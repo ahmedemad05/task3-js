@@ -1,0 +1,65 @@
+body{
+    background: url(/img/2025-new-year-firework-city-celebration-4k-wallpaper-uhdpaper.com-70@5@a.jpg);
+    background-size: cover ;
+    background-position: center ;
+    height: 50vh;
+}
+.hero{
+    text-align: center;
+    margin-top: 17rem;
+    font-size: 1.5rem;
+    
+    /* الجزء ده انا سيرشت عليه معلمتهوش مع نفسي يعني بتاع حتة الانيميشن */
+    text-shadow: 
+    0 0 5px #B22222, 
+    0 0 10px #B22222, 
+    0 0 20px #8B0000, 
+    0 0 30px #8B0000, 
+    0 0 40px #640000, 
+    0 0 50px #640000;
+    font-size: 30px; 
+    font-weight: bold; 
+    animation: glow 1.5s infinite;  
+}
+
+
+@keyframes glow {
+0% {
+text-shadow: 
+    0 0 5px #B22222, 
+    0 0 10px #B22222, 
+    0 0 20px #8B0000, 
+    0 0 30px #8B0000, 
+    0 0 40px #640000, 
+    0 0 50px #640000;
+}
+50% {
+text-shadow: 
+    0 0 10px #A52A2A, 
+    0 0 20px #8B0000, 
+    0 0 30px #640000, 
+    0 0 40px #4B0000, 
+    0 0 50px #4B0000, 
+    0 0 60px #4B0000;
+}
+100% {
+text-shadow: 
+    0 0 5px #B22222, 
+    0 0 10px #B22222, 
+    0 0 20px #8B0000, 
+    0 0 30px #8B0000, 
+    0 0 40px #640000, 
+    0 0 50px #640000;
+}
+}
+button {
+    background-color: #570707; 
+    color: white; 
+    border-radius: 40px 25px ;
+    padding: 12px ; 
+    font-size: 17px; 
+    cursor: pointer; 
+}
+button:hover {
+    background-color: #640000; 
+}
